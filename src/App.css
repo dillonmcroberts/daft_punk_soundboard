@@ -38,6 +38,21 @@
   border: 5px solid;
   border-radius: 15%;
   border-color: rgb(38, 238, 94);
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.keyboard-text {
+  font-weight: normal;
+  position: fixed;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  line-height: 25px;
+}
+
+.key-text {
+  font-weight: normal;
+  margin-bottom: 0px;
 }
 
 .App button:active {
