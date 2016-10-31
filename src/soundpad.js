@@ -15,7 +15,7 @@ export default class SoundPad extends Component {
   render() {
     return (
       <div>
-        <button className={this.props.classname} onClick={this.handleClick.bind(this, this.props.clipPath)}> {this.props.name} <div className="keyboard-text"><br/>{this.props.keyboard}</div></button>
+        <button className={this.props.classname} onClick={this.handleClick.bind(this, this.props.clipPath)}> {this.props.name} <div className="keyboard-text"><br/><br/>{this.props.keyboard}</div></button>
       </div>
     );
   }
