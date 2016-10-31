@@ -45,10 +45,10 @@
 
 .keyboard-text {
   font-weight: normal;
-  position: fixed;
-  padding-left: 0px;
-  margin-bottom: 0px;
-  line-height: 25 px;
+  padding-left: 0%;
+  margin-bottom: 0%;
+  height: 0px;
+  width: 5px;
 }
 
 .key-text {
