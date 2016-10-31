@@ -15,6 +15,7 @@ class App extends Component {
   }
 
   keyPressHandler(event){
+    event.preventDefault()
     $("."+ event.code).click()
   }
 

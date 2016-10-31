@@ -9,7 +9,8 @@
 .first-set {
   width: 520px;
   column-width: 110px;
-  margin-bottom: 5px
+  margin-bottom: 5px;
+  position: l
 }
 
 .second-set {
@@ -47,7 +48,7 @@
   position: fixed;
   padding-left: 0px;
   margin-bottom: 0px;
-  line-height: 25px;
+  line-height: 25 px;
 }
 
 .key-text {
